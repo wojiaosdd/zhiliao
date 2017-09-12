@@ -1,0 +1,87 @@
+
+body{
+	/*等于14px;*/
+	margin:auto;
+}
+.container{
+	max-width: 768px;
+}
+.drawer-main{
+    z-index: 200;
+}
+.nav-li{
+    border-bottom:1px solid #353131;
+}
+.dropdown-menu{  
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom:1rem;
+    box-shadow:0px;
+}
+.dropdown-menu{
+	width: 100%;
+    background-color: #222222;
+}
+.divider{
+    background-color: #353131 !important;
+}
+.dropdown-menu li a:hover{
+	color:#888888;
+    background-color: #222222;
+}
+
+.top{
+	position: relative;
+	z-index: -100;
+	height:50px;
+	line-height:25px; 
+	font-size: 14px;
+	color: #888888;
+	border-bottom:1px solid #e5e5e5;
+}
+.top-logo{
+	height: 48px;
+}
+.top-fr span{
+    color:#ff8800;
+}
+
+
+footer{
+	width: 100%;
+	background-color: #f8f8f8;
+}
+.footer-top{
+    text-align: center;
+    padding-bottom: 90px;
+}
+.footer-top a{		
+    font-size:0.8rem;
+    color:#666666;    
+    line-height: 300%;
+}
+.footer-top p{
+    font-size: 0.7rem;
+    line-height: 200%;
+}
+.footer-top span{
+	padding:0.6rem;
+}
+footer .footer-di{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom:0px;
+	background-color: #0088cc;
+}
+footer .footer-di a{
+	display: block;
+	float: left;
+	width: 25%;
+	height: 50px;
+	color:#ffffff;
+    text-align: center;
+    line-height: 50px;
+}
+
