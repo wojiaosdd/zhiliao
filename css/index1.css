@@ -1,0 +1,77 @@
+﻿.banner,.m-biaozhun{
+	max-width: 1920px;
+	min-width: 1200px;
+	margin:0 auto;
+}
+.t{
+	background-color: pink;
+}
+.banner{
+	margin-top: 50px;
+}
+.m-top,.m-biaozhun1{
+	width: 1200px;
+	margin:auto;
+}
+.m-biaozhun{
+    height: 450px;
+    padding-top: 50px;
+}
+.m-bz-bj{
+	background-color: #eeeeee;
+}
+.main-left{
+	width: 600px;
+	height: 435px;
+}
+.main-right{
+	width: 550px;
+	height: 435px;
+}
+.h2{
+	font-size:30px;
+	color:#666666;
+	font-family: 微软雅黑;
+	font-weight: bold !important;
+	line-height: 200%;
+}
+.main-right p{
+	color:#777777;
+	font-size: 14px;
+	line-height: 200%;
+	font-family: 微软雅黑;
+}
+.main-right-3{
+	margin-top: 50px;
+	color: #888888;
+	font-size: 14px;
+}
+.main-right-3 a{
+	color:#777777;
+	list-style: none;
+}
+.right-a{
+	width: 113px;
+	height: 35px;
+	margin-top: 100px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: 微软雅黑;
+	text-align: center;
+	line-height: 200%;
+	display:block;
+	color:#ffffff;
+	float: left;
+	background-color:#666666;
+}
+.a-red{
+	background-color: red !important;
+}
+.right-a:hover{
+	color:#ffffff;
+   background-color:red !important;
+}
+.main-right-4{
+	display: block;
+	margin-top:25px;
+}

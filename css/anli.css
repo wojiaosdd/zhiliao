@@ -1,0 +1,188 @@
+/*案例start*/
+
+#anliimg{
+	margin-top:50px;
+	width: 100%;
+	height: 340px;
+	background:url(../img/banner3.jpg)no-repeat ;
+	background-size:100% 340px;
+	opacity: 0.8;
+}
+#anli{
+	width: 100%;
+	background-color: #f5f5f3;
+	margin-top:20px;
+}
+
+#anli h2 {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 34px;
+	color: #000000;
+}
+
+.anli .mingpian {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.anli_div {
+	width: 1200px;
+	height: 60px;
+	margin: 10px auto;
+	
+}
+
+.anli_div .anli_div_ul {
+	width: 900px;
+	margin: 0 auto;
+	height: 60px;
+	padding: 16px 0 0 50px;
+	box-sizing: border-box;
+	height: auto;
+}
+
+.anli_div .anli_div_ul li {
+	width: 104px;
+	height: 28px;
+	float: left;
+	background-color: rgba(150, 150, 150, 0.9);
+	text-align: center;
+	line-height: 28px;
+	border-radius: 12px;
+	margin-right: 12px;
+	cursor: pointer;
+}
+
+.anli_div .anli_div_ul li.onanli_div_li {
+	background-color: red;
+}
+
+.anli_div .anli_div_ul li:hover {
+	background-color: red;
+}
+
+.anli_div .anli_div_ul li span {
+	color: white;
+	font-size: 12px;
+	transition: all 1s;
+	font-weight: 600;
+	color: white;
+}
+
+.anli_div .anli_div_ul li:hover span {
+	letter-spacing: 5px;
+}
+
+.anli_div_img{
+	width:100% ;
+	height: 100%;
+}
+
+.anli .anli_yindiv {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	position: relative;
+	height:530px;
+}
+
+.anli_yindiv .anli_yindiv_ul{
+	width:1200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: auto;
+	padding-left: 20px;
+	box-sizing:border-box ;
+}
+#anli .anli_yindiv_ul li {
+	width: 270px;
+	height: 270px;
+	float: left;
+	background-color: #857cd7;
+	position: relative;
+	margin: 20px 10px;
+}
+#anli .anli_yindiv_div ul li .onanli_div_li{
+	background-color: red;
+}
+.anli_yindiv_div ul li .anli_div_img {
+	width: 100%;
+	height: 100%;
+}
+
+.anli_yindiv_ul li .anli_div_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.anli_yindiv_ul li .anli_mengban {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.anli_yindiv_ul li .anli_mengban .anli_mengban_top {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height:70%;
+	position: absolute;
+	margin-top:-70%;
+	transition: all 0.5s;
+}
+
+.anli_yindiv_ul li .anli_mengban:hover .anli_mengban_top {
+	margin-top: 0px;
+}
+
+.anli_yindiv_ul li .anli_mengban .anli_mengban_top .anli_mengban_yuan {
+	background-color: #62f10b;
+	display: block;
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 22% 38%;
+	text-align: center;
+	line-height: 70px;
+}
+
+.anli_mengban .anli_mengban_top .anli_mengban_yuan i {
+	color: white;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.anli_yindiv_ul li .anli_mengban .anli_mengban_top .anli_mengban_yuan:hover {
+background-color: red;
+}
+
+.anli_yindiv_ul li .anli_mengban .anli_mengban_bottom {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height:30%;
+	position: absolute;
+	margin-top:100%;
+	transition: all 0.5s;
+}
+
+.anli_yindiv_ul li .anli_mengban:hover .anli_mengban_bottom {
+	margin-top:70%;
+}
+
+.anli_yindiv_div .anli_mengban .anli_mengban_bottom .anli_mengban_p {
+	text-align: center;
+	color: white;
+}
+
+
+/*案例end*/
+

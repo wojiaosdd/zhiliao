@@ -1,0 +1,371 @@
+.banner{
+	max-width: 1920px !important;
+	min-width: 1200px !important;
+	margin:0 auto;
+}
+.m-hangye-top{
+	width: 1200px;
+	margin:auto;
+}
+.banner{
+	margin-top: 52px;
+}
+.main{
+	width: 1200px !important;
+	margin:auto;
+}
+.m-hangye-top{
+	color:#888888;
+	text-align: center;
+	font-size:14px;
+}
+.m-hangye-top h2{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    font-weight: none;
+    font-family: "黑体";
+}
+.m-hangye-top p{
+	padding:0 200px;
+	line-height:200%;
+}
+.sbysf_tab {
+    width: 1100px;
+    margin: 0 auto;
+    height: 105px;
+    background: url(../images/sbyxf_tit.png) no-repeat 0px 0px;
+    overflow: hidden;
+}
+.sbysf_tab a.tab1 {
+    margin-left: 68px;
+}
+.sbysf_tab a.tab2 {
+    margin-left: 58px;
+}
+.sbysf_tab a.tab3 {
+    margin-left: 70px;
+}
+.sbysf_tab a.tab4 {
+    margin-left: 37px;
+}
+.sbysf_tab a.now span.borders1 {
+    border-bottom: 5px solid #99cc00;
+}
+.sbysf_tab a span {
+    width: 100%;
+    height: 101px;
+    display: block;
+    overflow: hidden;
+    text-indent: -999em;
+}
+.sbysf_tab a {
+    display: block;
+    width: 200px;
+    height: 106px;
+    float: left;
+}
+.sbysf_con {
+    height: 520px;
+    min-width: 1100px;
+}
+.sb_list {
+    width: 1100px;
+    height: 520px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.sb_list ul {
+    width: 4400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.sb_list li {
+    width: 1100px;
+    height: 520px;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.sb_list li img {
+    width: 1100px;
+    height: 520px;
+    display: block;
+}
+.m-neirong3{
+	width: 1200px;
+	margin-top: 50px;
+	text-align: center;
+}
+.m-neirong3 h2{
+	font-size:36px;
+	line-height: 200%;
+}
+.m-nr3-fl{
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+}
+.m-nr3-fr{
+	text-align: left;
+	width: 770px;
+    margin-top: 30px;
+	padding:0px 15px 0px 15px;
+}
+.m-nr3-fr p{
+	line-height: 200%;
+	color:#888888;
+}
+.m-nr3-fr span{
+	color:#d80d18;
+}
+.fun {
+    padding-top: 46px;
+    background: #fff;
+    overflow: hidden;
+    clear:both;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tit {
+    font-size: 35px;
+    text-align: center;
+    line-height: 76px;
+    font-weight: bold;
+}
+.list_wx {
+    overflow: hidden;
+    position: relative;
+}
+.list_wx .ul li {
+    float: left;
+    margin: 10px 5px 0 0;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    padding-top: 84px;
+    text-align: center;
+    position: relative;
+    background: url(../images/weixin-neirong4.png) no-repeat left top;
+    cursor: pointer;
+    color: #91d637;
+    padding-right: 0px;
+    transition:.3s;
+}
+.list_wx .ul .li1:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat 0px -120px;
+}
+.list_wx .ul .li2 {
+    background-position: -120px top;
+    color: #ef972c;
+}
+.list_wx .ul .li2:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -120px -120px;
+}
+.list_wx .ul .li3 {
+    background-position: -240px top;
+    color: #4dd2d7;
+}
+.list_wx .ul .li3:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -240px -120px;
+}
+.list_wx .ul .li4 {
+    background-position: -360px top;
+    color: #d7644d;
+}
+.list_wx .ul .li4:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -360px -120px;
+}
+.list_wx .ul .li5 {
+    background-position: -480px top;
+    color: #da62c1;
+}
+.list_wx .ul .li5:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -480px -120px;
+}
+.list_wx .ul .li6 {
+    background-position: -600px top;
+    color: #4d9cd7;
+}
+.list_wx .ul .li6:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -600px -120px;
+}
+.list_wx .ul .li7 {
+    background-position: -720px top;
+    color: #4d9cd7;
+}
+.list_wx .ul .li7:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -720px -120px;
+}
+.list_wx .ul .li8 {
+    background-position: -840px top;
+    color: #4d9cd7;
+    margin-right: 0px;
+}
+.list_wx .ul .li8:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -840px -120px;
+}
+.list_wx .ul .li9 {
+    background-position: -960px top;
+    color: #d95ec0;
+}
+.list_wx .ul .li9:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -960px -120px;
+}
+.list_wx .ul .li10 {
+    background-position: -1080px top;
+    color: #4d9cd7;
+}
+.list_wx .ul .li10:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1080px -120px;
+}
+.list_wx .ul .li11 {
+    background-position: -1200px top;
+    color: #bfcf3e;
+}
+.list_wx .ul .li11:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1200px -120px;
+}
+.list_wx .ul .li12 {
+    background-position: -1320px top;
+    color: #4dd78e;
+}
+.list_wx .ul .li12:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1320px -120px;
+}
+.list_wx .ul .li13 {
+    background-position: -1440px top;
+    color: #4d9cd7;
+}
+.list_wx .ul .li13:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1440px -120px;
+}
+.list_wx .ul .li14 {
+    background-position: -1560px top;
+    color: #4d9cd7;
+}
+.list_wx .ul .li14:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1560px -120px;
+}
+.list_wx .ul .li15 {
+    background-position: -1680px top;
+    color: #4d9cd7;
+}
+.list_wx .ul .li15:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1680px -120px;
+}
+.list_wx .ul .li16 {
+    background-position: -1800px top;
+    color: #4d9cd7;
+} 
+.list_wx .ul .li16:hover{
+	color:#ffffff !important;
+    background:url(../images/weixin-neirong4.png) no-repeat -1800px -120px;
+}
+
+.uses {
+    padding-top: 45px;
+    overflow: hidden;
+    padding-bottom: 75px;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tit {
+    font-size: 35px;
+    text-align: center;
+    line-height: 76px;
+    font-weight: bold;
+}
+.uses .list {
+    padding-top: 85px;
+}
+.uses li {
+    float: left;
+    width: 168px;
+    padding: 0 30px;
+    margin-right: 29px;
+    background: #fff;
+    padding-top: 54px;
+    position: relative;
+}
+.uses .li_img {
+    position: absolute;
+    left: 60px;
+    top: -55px;
+}
+.uses .li_img img{
+	border: 0;
+    vertical-align: middle;
+}
+.uses .li_tit {
+    font-size: 25px;
+    text-align: center;
+    color: #595858;
+    line-height: 80px;
+}
+ .uses .li_txt {
+    font-size: 14px;
+    color: #838383;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.uses .last {
+    margin-right: 0;
+}
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.uses .li1 .bg {
+    background: #ec568a;
+}
+.uses .li2 .bg {
+    background: #03a5e3;
+}
+.uses .li3 .bg {
+    background: #58cd63;
+}
+ .uses .li4 .bg {
+    background: #f08026;
+}
+.uses .bg {
+    width: 62px;
+    height: 2px;
+    margin: 0 auto;
+}
