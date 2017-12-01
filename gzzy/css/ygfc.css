@@ -1,0 +1,89 @@
+
+
+.tounei{
+	width: 1200px;
+	height: auto;
+	margin:60px auto;
+}
+.tounei .tounei_div{
+	width: 100%;
+	height: auto;
+	font-size: 24px;
+	text-align: left;
+	line-height: 40px;
+}
+.ygtp_all{
+	width:100%;
+	height: auto;
+	background: #f8c700;
+
+}
+.ygtp{
+	width: 1200px;
+	margin:0 auto;
+	height: 800px;
+	padding-top: 20px;
+}
+.ygtp ul li{
+	float: left;
+	width:540px ;
+	height: 340px;
+	position: relative;
+	margin:20px 30px ;
+}
+.ygtp .db{
+	height: 100%;
+	width:100% ;
+}
+.ygtp .db img{
+	display: block;
+	height: 100%;
+	width:100% ;
+}
+.mengb{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.mengb h3{
+	width:200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+	font-size: 30px;
+	top: 400px;
+	left: 50%;
+	color: #fff;
+	margin-left: -100px;
+	transition:all 0.5s;
+}
+.mengb .ckxq{
+	width:120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	font-size:18px;
+	top:0;
+	left: 50%;
+	color: #fff;
+	margin-left: -60px;
+	background: #f8c700;
+	transition:all 0.5s;
+}
+.ygtp ul li:hover .mengb{
+	display: block;
+}
+.ckxq:hover a{
+	display: block;
+	width:100% ;
+	height:100% ;
+	background: #fff;
+	color: #000;
+}

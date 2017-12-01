@@ -1,0 +1,144 @@
+section{
+	height:auto;
+		background-color:#f8c700;
+		margin-top:60px ;
+		position: relative;
+}
+#yewu{
+	 height:auto;
+	 width: 1200px;
+	 margin: 20px auto;
+	 padding-top: 0.1px;
+}
+
+#yewu h1{
+	width:400px;
+	height:60px;
+
+	margin:0 auto;
+}
+#yewu h1 .h1q{
+	float: left;
+	width: 250px;
+	height: 40px;
+	font-size: 40px;
+	color: #fff;
+}
+#yewu h1 .h2q{
+margin-top: 20px;
+	float: right;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	color: #fff;
+}
+#yewu ul{
+	width: 1000px;
+	margin:0 auto;
+	height:800px;
+}
+#yewu ul li{
+	width: 480px;
+	height: 360px;
+	margin:10px;
+	float: left;
+	border-radius:8px ;
+	position: relative;
+}
+#yewu ul li h1{
+	color: #fff;
+    font-size: 42px;
+    text-align: left;
+    padding-left: 20px;
+    margin:20px 10px ;
+    z-index: 3000;
+}
+.youxia{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#yewu ul li p{
+	
+	height:auto;
+	padding: 20px;
+	line-height: 40px;
+	font-size: 22px;
+	text-align: left;
+	font-weight: bold;
+	color: #fff;
+	margin: 10px ;
+}
+/*底部展示的*/
+.zmzsd{
+	width: 100%;
+	height:auto;
+	padding: 0.1px;
+
+	position: relative;
+	background: url(../img/ywbjt.jpg)no-repeat;
+	background-size:cover ;
+	opacity: 0.9;
+}
+.zmzsd .dbbj{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	z-index: -1;
+background:rgba(0,0,0,0.4) ;
+
+}
+.zmzsd .db_nr{
+	width: 1200px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;
+	z-index: 100;
+}
+
+.zmzsd .db_nr li{
+	width: 360px;
+	height:220px;
+	float: left;
+	margin:20px 20px ;
+	background-position:center;
+	
+}
+.db_title{
+	width: 1160px;
+	height: auto;
+	margin: 30px auto 20px;
+	text-indent: 2em;
+	line-height: 40px;
+	font-size: 24px;
+	color: #fff;
+}
+
+/*几何图形*/
+.zuoce{
+	position: absolute;
+	top:50%;
+	margin: -225px 0 0 0;
+	left: 0;
+	width: 360px;
+	height: 550px;
+	overflow: hidden;
+	z-index: 200;
+}
+.zuoce img{
+	float: left;
+	margin-left:-200px;
+	width: 550px;
+	height: 550px;
+   opacity: 0.7;
+	
+}
+.meng{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+}

@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+body,html{
+	min-width: 1200px;
+	max-width:1920px ;
+
+	width: 100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+   font-family: "微软雅黑";
+}
+h1{
+	margin: 10px;
+	width: 100%;
+	height: 60px;
+	font-size: 36px;
+	text-align: center;
+}
+footer h2{
+	font-size: 16px;
+	color: white;
+}
+.fengcai{
+	width: 100%;
+	height:600px;
+	background: url(../img/lbt2.jpg) no-repeat;
+	background-position:center ;
+	background-size:cover;
+}
+header{
+	width: 100%;
+	height:140px;
+   border-bottom: 1px solid #AAAAAA;
+   background-color:#333;
+}
+header .header_div{
+	width: 1200px;
+	height:100%;
+	margin:0 auto;
+	padding-top: 8px;
+	box-sizing: border-box;
+}
+
+.top_title{
+	width:400px;
+	height:50px;
+    
+	margin:10px auto;
+}
+.top_title .h1q{
+	float: left;
+	width: 250px;
+	height: 40px;
+	font-size: 40px;
+	color: #888;
+}
+.top_title .h2q{
+margin-top: 20px;
+	float: right;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	color: #888;
+}
+.header_logo>a{
+		margin-top: 20px;
+}
+.header_div .header_logo{
+	width:460px;
+	height:100%;
+float:left ;
+overflow: hidden;
+}
+header .header_div a{
+	height: 60%;
+	width:100%;
+	float:right;
+
+}
+
+.header_div .header_logo .logo_img{
+	width: 76px;
+	height:70px;
+	float: left;
+	background: url(../img/logo.png) no-repeat;
+	background-size:90% ;
+	background-position:0 0;
+	text-decoration: underline;
+}
+
+header .header_div .header_logo .tilte{
+  width: 320px;
+  height: 50px;
+  float: left;
+  background: url(../img/ti.png)no-repeat;
+  background-size:100% ;
+	margin-top:10px;
+}
+header .header_div .nav{
+	width: 600px;
+	height:60px;
+	float:right;
+	
+}
+header .header_div .nav ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding-top:60px ;
+	box-sizing: border-box;
+
+	
+}
+header>.header_div>.nav>ul>li{
+	flex: 1;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin:-30px 5px 0;
+	position: relative;
+	
+}
+.xiala{
+	width: 100%;
+	height: 0;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	transition: height .5s;
+	overflow: hidden;
+z-index: 1000;
+	
+}
+.header_div .nav ul li.xialali .xiala p{
+height: 30px;
+width: 100%;
+line-height: 30px;
+	background: #eee;
+
+}
+.header_div .nav ul li.xialali .xiala a{
+	color: #888;
+	font-size: 16px;
+}
+.header_div .nav ul li.xialali .xiala p:hover{
+background: #f8c700;
+
+}
+.header_div .nav ul li.xialali .xiala a:hover{
+
+color: white;
+}
+.header_div .nav ul li a{
+     color: #fff;
+     font-size: 20px;
+     font-weight: bold;
+}
+.header_div .nav ul li:hover{
+	background-color:#f8c700;
+}
+.header_div .nav ul li:hover a{
+	color:#fff;
+}
+.header_div .nav ul li.xialali:hover .xiala{
+	height: 100px;
+}
+.header_div .nav ul .onnav{
+	background-color:#f8c700;
+}
+.header_div .nav ul .onnav a{
+     color: #fff;
+
+}
+footer{
+
+	padding: 30px 0;
+	width: 100%;
+	height: auto;
+	background-color:#292C34 ;
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+}
+footer ul li{
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	color: white;
+}
+#cometop{
+	width: 60px;
+	height: 80px;
+	position: fixed;
+	border-radius:10px ;
+	bottom: 50px;
+	right: 1px;
+	z-index: 1000;
+	text-align: center;
+   padding: 4px;
+   background-color:gray;
+}
+#cometop i{
+    color:white;
+    font-weight:200;
+	font-size: 40px;
+}
+#cometop span{
+	color:white;
+    font-weight:200;
+	font-size: 18px;
+}
+.fengcai .fc_zi{
+	width: 1200px;
+	height: 600px;
+	margin:0 auto;
+	z-index: 100;
+	background: url(../img/aboutus/zi.png)no-repeat 0 -60px;
+	background-size:cover ;
+}
+.dbcl{
+	width: 100%;
+	height:20px;
+	background: url(../img/jiao.png);
+}
+.dbcl2{
+	width: 100%;
+	height:20px;
+	background: url(../img/jiao2.png);
+}
+.wzxq h4{
+	width: 100%;
+	font-size: 20px;
+	color: #333;
+}
+.wzxq h4 a{
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+}
+.wzxq h4 a:hover{
+	color: red;
+}
+.gsnh_div h4{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
+	text-align: center;
+	color: #333;
+	
+}
+.gsnh_div h4:hover a{
+
+	color: #000;
+}

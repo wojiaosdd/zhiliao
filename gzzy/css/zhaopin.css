@@ -1,0 +1,94 @@
+.zhaopin{
+	width: 1200px;
+	height:1600px;
+	margin:0 auto;
+	padding-top: 0.1px;
+	overflow: hidden;
+position: relative;
+}
+h1{
+	color: #37474f;
+}
+h4{
+	color: #333;
+}
+.zhaopin_div{
+	
+	width: 100%;
+	height:auto ;
+	padding: 20px 10px;
+	box-sizing:border-box ;
+	border-bottom: 1px solid #999;
+}
+.jiandanjs{
+	width:1200px;
+	height: 200px;
+	margin:0 auto;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	color: #515151;
+}
+.zhaopin_div h4{
+	width: 100%;
+	height: 60px;
+	font-size: 24px;
+	line-height: 60px;
+}
+.zhaopin_div li{
+	height: 26px;
+	line-height: 26px;
+	font-size: 18px;
+	margin: 10px 30px;
+}
+.zhaopin_div1{
+	position: absolute;
+	top:-800px;
+	right:-800px;
+	z-index: 100;
+}
+.zhaopin_div2{
+	position: absolute;
+	top:-800px;
+	left: -800px;
+}
+.zhaopin_div .yingpin_ts a{
+	float: right;
+	margin-right:40px ;
+	width: 120px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #eee;
+	background-color:#0088cc ;
+	border-radius:12px ;
+}
+.zhaopin_div .yingpin_ts a:hover{
+	background-color:#f8c700;
+}
+.zhaopin_div .yingpin_ts p{
+
+	margin:0 auto;
+	width:1100px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #f8c700;
+	
+}
+.zhaopin_div .yingpin_ts p:hover{
+	color:#0088cc;
+}
+.zp_nr_left{
+	float: left;
+	width: 10%;
+	height: auto;
+}
+.zp_nr_right{
+	float: left;
+	width: 90%;
+	height: auto;
+}

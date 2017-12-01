@@ -1,0 +1,155 @@
+.lbt{
+	width: 100%;
+	height:490px;
+	position: relative;
+	background:#f8c700;
+	padding-top:20px ;
+}
+.carousel{
+    position: relative;
+    height: 450px;
+    width:810px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.carousel-inner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 450px;
+    width: 100%;
+}
+.carousel-inner>.item{
+    float: left;
+    position: relative;
+    height: 450px;
+    width: 100%;
+}
+.carousel-inner .item-pic{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -402px;
+    width: 814px;
+    height: 450px;
+    overflow: hidden;
+}
+.pagination{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index:6;
+    width: 100%;
+    text-align: center;
+}
+.pagination-item{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pagination-item:hover{
+    background-color: #fff;
+}
+.pagination-item.active{
+    background-color: #fff;
+}
+.carousel-control{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+  opacity: .1;
+}
+.carousel-control.left-btn{
+    background: url(../img/zyanz.png) no-repeat;
+    background-size:cover;
+    margin-left: -550px;
+}
+.carousel-control.right-btn{
+    background: url(../img/zyany.png) no-repeat;
+    background-size:cover;
+    margin-left:490px;
+}
+
+.banner-right-box{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 412px;
+    width: 200px;
+    height: 440px;
+    padding-top: 10px;
+}
+.banner-right-item{
+    display: block;
+    width: 200px;
+    height: 210px;
+    margin-bottom:10px;
+    opacity: 0.7;
+}
+.banner-right-item:hover{
+    opacity: 1;
+}
+.w-100{
+	width: 100%;
+}
+{
+	z-index: 200;
+	width:1200px;
+	height: 200px;
+
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin:-100px 0 0 -600px;
+}
+.zyan:hover .carousel-control{
+    opacity:1;
+}
+.tounei{
+	width: 1200px;
+	height: auto;
+	margin:20px auto;
+	padding: 20px 0;
+}
+.tounei h1{
+	font-size:50px;
+	color: #ffac00;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.tounei h2{
+	font-size:40px;
+	color: #ffac00;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.tounei ul{
+	width: 98%;
+	height: auto;
+	padding: 2% 1%;
+}
+.tounei ul li{
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight:bold ;
+	font-family: "楷体";
+	margin: 10px 0;
+}
+.sjx{
+	width: 100%;
+	height: 20px;
+	background: url(../img/jiao.png);
+}
