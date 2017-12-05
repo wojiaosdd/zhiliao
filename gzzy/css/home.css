@@ -239,8 +239,8 @@ section .section_div .renwu {
 	height: 1200px;
 	margin: 0 auto;
 	background: url(../img/mingpin.png)no-repeat;
-	background-size:140% 140% ;
-	background-position:56% 50% ;
+	background-size:120% 120% ;
+	background-position:70% 90% ;
 }
 
 .rwjs li {
@@ -383,22 +383,25 @@ top: 0;
 }
 .luanchuan{
 	width: 100%;
-	height: 750px;
+	height: 800px;
 	padding: 0.1px;
 	background: url(../img/chuan.png)no-repeat center center;
 	background-size:cover ;
+	position: relative;
 }
 .xiao_lc{
 	width: 1200px;
 	height: 640px;
-	margin:-10px auto;
-	background: url(../lbt/indexzi.png)no-repeat center -10%;
+	position: absolute;
+	top:30px;
+	right: 80px;
+	background: url(../lbt/indexzi.png)no-repeat center center;
 	background-size: cover ;
 }
 .tanping{
 	width: 1300px;
 	height: 100%;
-	position: absolute;
+
 	top: 0;
 	left:50%;
 	margin-left:-650px;
@@ -415,21 +418,21 @@ font-weight: bold;
 	width: 40px;
 	height: 180px;
 	top:50%;
-	left: 0;
+	left:40px;
 	margin-top:-90px ;
-	animation: ;
+
 }
 .tanping .tanping_right{
 	width: 40px;
 	height: 180px;
 	top:50%;
-	right: 0;
+	right: 40px;
 	margin-top:-90px ;
 }
 .tanping .tanping_bottom{
 	width: 180px;
 	height: 40px;
-	bottom:10px;
+	bottom:40px;
 	left: 50%;
 	margin-left:-90px ;
 }
