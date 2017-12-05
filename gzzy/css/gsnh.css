@@ -18,7 +18,7 @@
 }
 .gsnh_ul li{
 	width: 100%;
-	height: 480px;
+	height:530px;
 }
 .gs_div_left{
 	float: left;
@@ -35,10 +35,35 @@
 	
 }
 .gs_div_top{
-	height: 60px;
-	width: 100%;
-line-height: 60px;
-text-align: center;
+	height:100px;
+	width: 1100px;
+margin:20px auto;
+}
+.rq{
+	float: left;
+	height:100px;
+	width:100px;
+	font-size: 32px;
+    border: 1px solid #ddd ;
+    border-radius: 50%;
+}
+.rq p{
+	width: 90%;
+	height: 30px;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px auto;
+	font-weight: bold;
+	color: #F8C700;
+}
+.gs_div_top h2{
+	float: left;
+	height: 100%;
+	width:1000px;
+	font-size: 32px;
+    line-height: 100px;
+    text-align: center;
 }
 .gs_div_right{
 	float: left;
@@ -96,10 +121,11 @@ text-align: center;
 }
 .rsds{
 	width: 100%;
-	height: 50px;
-	line-height: 50px;
+	height: 60px;
+	line-height: 60px;
 	text-align: center;
-	font-size: 36px;
+	font-size: 42px;
+	color: #f8c700 ;
 	margin: 20px;
 }
 .tbwz_bo{
@@ -116,4 +142,7 @@ text-align: center;
     line-height: 40px;
     padding: 20px;
     text-indent: 2em;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-weight: bold;
 }    

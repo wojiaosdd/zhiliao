@@ -393,9 +393,10 @@ top: 0;
 	width: 1200px;
 	height: 640px;
 	position: absolute;
-	top:30px;
-	right: 80px;
-	background: url(../lbt/indexzi.png)no-repeat center center;
+	top:50%;
+	right: 12%;
+	margin-top: -320px;
+	background: url(../lbt/indexzi.png)no-repeat;
 	background-size: cover ;
 }
 .tanping{
