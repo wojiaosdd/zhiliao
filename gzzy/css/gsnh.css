@@ -37,6 +37,8 @@
 .gs_div_top{
 	height: 60px;
 	width: 100%;
+line-height: 60px;
+text-align: center;
 }
 .gs_div_right{
 	float: left;
