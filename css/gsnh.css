@@ -1,0 +1,117 @@
+
+.gsnh_div{
+	width: 100%;
+    	background: #f8c700; 
+}
+.gsnh_div h2{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 0;
+	font-size: 30px;
+}
+.gsnh_ul{
+	width: 1200px;
+	height: auto;
+	margin:0 auto;
+}
+.gsnh_ul li{
+	width: 100%;
+	height: 480px;
+}
+.gs_div_left{
+	float: left;
+	width: 500px;
+	height: 380px;
+    padding: 10px 0;
+    box-sizing: border-box;
+	text-align: center;
+}
+.gs_div_left img{
+	display: inline-block;
+	width: 420px;
+	height: 320px;
+	
+}
+.gs_div_top{
+	height: 60px;
+	width: 100%;
+}
+.gs_div_right{
+	float: left;
+	width:700px;
+	height: 370px;
+	line-height: 400px;
+	text-align: center;
+	position: relative;
+}
+.gs_div_right span{
+	display: inline-block;
+	width: 500px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 24px;
+	color: #fff;
+	
+}
+.gs_div_bottom{
+	float: left;
+	width: 100%;
+	height:20px ;
+	background: url(../img/caitiao.png) 0 -60px;
+	background-size:cover;
+}
+.xw_wz{
+	width: 600px;
+	height: 200px;
+	line-height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin: -100px 0;
+	text-align: left;
+	text-indent: 2em;
+}
+.ckqb_a{
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	bottom: 10px;
+	right: 20px;
+	border-radius:8px ;
+	text-align:center;
+	text-indent:0;
+	color: red;
+	border: 1px solid red;
+	font-weight: bold;
+}
+.ckqb_a:hover{
+	background: red;
+	color: #FFF;
+}
+.rsds{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 36px;
+	margin: 20px;
+}
+.tbwz_bo{
+	width: 100%;
+	height: 370px;
+	background: #f8c700; 
+}
+.tbwz{
+	width:1200px;
+	margin: 20px auto 30px;
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+    line-height: 40px;
+    padding: 20px;
+    text-indent: 2em;
+}    

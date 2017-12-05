@@ -1,0 +1,137 @@
+*{
+	color: #333;
+}
+section{
+	background-color:#f8c700;
+	padding: 0.1px;
+	z-index: -100;
+}
+.dizhi{
+	width: 1200px;
+	height:650px;
+	
+	margin:30px auto 0px;
+	
+}
+.lbt {
+	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.lbt .lbt_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.lbt .lbt_img li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	transition: z-index 0.5s;
+}
+
+.lbt .lbt_img .chuxian {
+	z-index: 200;
+}
+
+
+.lbt .lbt_dian {
+	width:90px;
+	height: 40px;
+	z-index: 999;
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	margin-left: -30px;
+}
+
+.lbt .lbt_dian li {
+	width: 10px;
+	height: 10px;
+	background-color: #eee;
+	z-index: 999;
+	float: left;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.lbt .lbt_dian li.ondian {
+	background-color: #131313;
+}
+
+.dizhi .dizhi_div{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.dizhi .dizhi_div #dituContent{
+	width:560px ;
+	height: 600px;
+	float:left ;
+	margin:10px 20px;
+	border: 1px solid #AAAAAA;
+}
+.dizhi .dizhi_div .dizhi_div_fangshi{
+	width:500px ;
+	height: 500px;
+	float:right;
+	margin-right:60px;
+	margin-top:10%;
+   z-index: 100;
+}
+.dizhi_div .dizhi_div_fangshi ul li{
+	width:500px ;
+	height: 30px;
+	margin:10px ;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+.dizhi .dizhi_div .dizhi_div_fangshi h3{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+}
+.dizhi .dizhi_div .dizhi_div_fangshi h4{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+.dz_all{
+	width:1200px;
+	height: 100%;
+	margin:0 auto;
+	position: relative;
+z-index:100;
+}
+.diqiu{
+	width: 500px;
+	height:500px;
+	position: absolute;
+	top: 50%;
+	right: -200px;
+	margin: -250px 0;
+	opacity: 0.4;
+	z-index: -10;
+}
+.diqiu img{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
