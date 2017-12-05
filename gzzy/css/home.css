@@ -402,7 +402,6 @@ top: 0;
 .tanping{
 	width: 1300px;
 	height: 100%;
-
 	top: 0;
 	left:50%;
 	margin-left:-650px;
@@ -419,7 +418,7 @@ font-weight: bold;
 	width: 40px;
 	height: 180px;
 	top:50%;
-	left:40px;
+	left:60px;
 	margin-top:-90px ;
 
 }
@@ -427,7 +426,7 @@ font-weight: bold;
 	width: 40px;
 	height: 180px;
 	top:50%;
-	right: 40px;
+	right: 60px;
 	margin-top:-90px ;
 }
 .tanping .tanping_bottom{
