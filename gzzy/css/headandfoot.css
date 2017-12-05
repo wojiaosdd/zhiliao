@@ -32,18 +32,13 @@ footer h2{
 	font-size: 16px;
 	color: white;
 }
-.fengcai{
-	width: 100%;
-	height:600px;
-	background: url(../img/lbt2.jpg) no-repeat;
-	background-position:center ;
-	background-size:cover;
-}
+
 header{
 	width: 100%;
 	height:140px;
    border-bottom: 1px solid #AAAAAA;
    background-color:#333;
+   z-index: 10000;
 }
 header .header_div{
 	width: 1200px;
@@ -224,14 +219,7 @@ footer ul li{
     font-weight:200;
 	font-size: 18px;
 }
-.fengcai .fc_zi{
-	width: 1200px;
-	height: 600px;
-	margin:0 auto;
-	z-index: 100;
-	background: url(../img/aboutus/zi.png)no-repeat 0 -60px;
-	background-size:cover ;
-}
+
 .dbcl{
 	width: 100%;
 	height:20px;
@@ -267,4 +255,36 @@ footer ul li{
 .gsnh_div h4:hover a{
 
 	color: #000;
+}
+/*.fengcai{
+	width: 100%;
+	height:600px;
+	background: url(../img/lbt2.jpg) no-repeat;
+	background-position:center ;
+	background-size:cover;
+	
+}
+.fengcai .fc_zi{
+	width: 1200px;
+	height: 600px;
+	margin:0 auto;
+	z-index: 100;
+	background: url(../img/aboutus/zi.png)no-repeat 0 -60px;
+	background-size:cover ;
+}
+* */
+.fengcai .fc_zi{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	overflow: hidden;
+	text-align: center;
+	z-index: 0;
+}
+.fengcai .fc_zi img{
+	z-index: 0;
+	display: block;
+	width: 1200px;
+	height: 650px;
+	margin:-80px auto;
 }
