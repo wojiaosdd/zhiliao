@@ -219,13 +219,8 @@
 <script type="text/javascript">
 	$(function() {
 		var yyzy = $(".yyzy");
-		yyzy.click(function() {
-			//			console.log($(this).parent().siblings())
-			$(this).parent().addClass("onzhan").siblings().removeClass("onzhan").removeClass("onzhan1");
-		    var all_h=$(".zp_nr_right").innerHeight()+31;
-		    $(".zp_nr").css("height",all_h+"px");
-		});
 		
+	
 		$("#ywl").click(function(){
 			$(".zp_nr_left ul li").removeClass("onbt");
 			$(this).addClass("onbt");
@@ -252,6 +247,13 @@
 			 var all_h=$(".zp_nrul").innerHeight();
 		    $(".zp_nr").css("height",all_h+"px");
 		})
-        
+               var yyzy = $(".yyzy");
+		yyzy.click(function() {
+			//			console.log($(this).parent().siblings())
+			$(this).parent().addClass("onzhan").siblings().removeClass("onzhan").removeClass("onzhan1");
+		    var all_h=$(".zp_nr_right").innerHeight()+31;
+		    $(".zp_nr").css("height",all_h+"px");
+		});
+		
 	})
 </script>
