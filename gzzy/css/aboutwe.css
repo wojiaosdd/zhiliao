@@ -134,8 +134,10 @@ transform: scale(1.1)
    font-size: 24px;
    color: #f8c700;
 font-family: "微软雅黑";
+	background:#fff;
 }
 .war h3{
+	background:#fff;
 	height: 30px;
 	width: 100%;
 	text-align: center;
