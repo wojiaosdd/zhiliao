@@ -45,23 +45,23 @@ section{
 
 
 .lbt .lbt_dian {
-	width:90px;
-	height: 40px;
+	width:180px;
+	height: 80px;
 	z-index: 999;
 	position: absolute;
 	left: 50%;
 	bottom: 0px;
-	margin-left: -30px;
+	margin-left: -70px;
 }
 
 .lbt .lbt_dian li {
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	background-color: #eee;
 	z-index: 999;
 	float: left;
 	border-radius: 50%;
-	margin: 10px;
+	margin: 20px;
 }
 
 .lbt .lbt_dian li.ondian {
