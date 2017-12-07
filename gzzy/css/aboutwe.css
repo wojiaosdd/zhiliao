@@ -123,3 +123,23 @@ transform: scale(1.1)
     font-weight: bold;
 	text-indent: 2em;
 }
+.war{
+	width: 100%;
+	height: auto;
+}
+.war h2{
+	height: 30px;
+	width: 100%;
+	text-align: center;
+   font-size: 24px;
+   color: #f8c700;
+font-family: "微软雅黑";
+}
+.war h3{
+	height: 30px;
+	width: 100%;
+	text-align: center;
+   font-size: 26px;
+   color: #f8c700;
+font-family: "微软雅黑";
+}
