@@ -129,21 +129,21 @@ transform: scale(1.1)
 	padding:40px 0;
 }
 .war h2{
-	height: 40px;
+	height: 60px;
 	width: 100%;
-	line-height: 40px;
+	line-height: 60px;
 	text-align: center;
-   font-size: 24px;
+   font-size: 40px;
    color: #f8c700;
    background:#fff;
 font-family: "微软雅黑";
 }
 .war h3{
-	height:40px;
-	line-height: 40px;
+	height:60px;
+	line-height: 60px;
 	width: 100%;
 	text-align: center;
-   font-size: 26px;
+   font-size:42px;
    color: #f8c700;
    background:#fff;
 font-family: "微软雅黑";
