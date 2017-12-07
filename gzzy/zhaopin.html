@@ -64,9 +64,7 @@
 
 				<div class="zpjs">
 			
-					<div class="zpjs_div">公司坚持以人为本、以能为主的用人理念，坚信“人才是企业最核心竞争力”，员工是我们最宝贵的资产，我们一直投入大量精力广揽贤才。 我们尊重人才的价值和个性，对员工个人的努力、出色的表现和团队合作给
-予肯定。 我们推崇勤奋的工作、极高的效率和开放的沟通，和优秀的人共事是我们的希望。 我们努力提供行业中具有竞争力的薪酬、系统全面的职业培训和多元化职业发展空间及平台，对于极具优秀员工，我们会提供海
-外参展机会（美国CES展、德国IFA展）、欧美市场走访、海外仓视察等海外差旅机会，培养其全球化的视野，洞悉欧美消费市场。让我们携手努力，一起实现中国智造，品牌出海的梦想。
+					<div class="zpjs_div">公司坚持以人为本、以能为主的用人理念，坚信“人才是企业最核心竞争力”，员工是我们最宝贵的资产，我们一直投入大量精力广揽贤才。 我们尊重人才的价值和个性，对员工个人的努力、出色的表现和团队合作给予肯定。 我们推崇勤奋的工作、极高的效率和开放的沟通，和优秀的人共事是我们的希望。 我们努力提供行业中具有竞争力的薪酬、系统全面的职业培训和多元化职业发展空间及平台，对于极具优秀员工，我们会提供海外参展机会（美国CES展、德国IFA展）、欧美市场走访、海外仓视察等海外差旅机会，培养其全球化的视野，洞悉欧美消费市场。让我们携手努力，一起实现中国智造，品牌出海的梦想。
 </div>
 				    <div class="dbcl"></div>
 				</div>
@@ -198,7 +196,7 @@
 					</div>
 				</div>
 			</div>
-			<h4 class="yxdz">如果你对我们的职位感兴趣，且符合我们的基本要求，请将个人简历投递至qiners@qq.com</h4>
+			<h4 class="yxdz">如果你对我们的职位感兴趣，且符合我们的基本要求，请将个人简历投递至公司邮箱：<span style="color: red;">qiners@qq.com</span></h4>
 		</section>
 		<!--内容部分-->
 
@@ -206,8 +204,7 @@
 		<footer>
 			<ul>
 				<li><i class="iconfont icon-dingwei"></i> 公司地址：广州市番禺区东环路242号-2富宾星悦国际</li>
-				
-				<li>粤ICP备16082087号-1 Copyright 2013-2017 广州众焰互联网科技有限公司 版权所有 </li>
+				<li>粤ICP备17124722号   广州众焰互联网科技有限公司 版权所有</li>
 			</ul>
 
 		</footer>
@@ -219,8 +216,13 @@
 <script type="text/javascript">
 	$(function() {
 		var yyzy = $(".yyzy");
+		yyzy.click(function() {
+			//			console.log($(this).parent().siblings())
+			$(this).parent().addClass("onzhan").siblings().removeClass("onzhan").removeClass("onzhan1");
+		    var all_h=$(".zp_nrul").innerHeight();
+		    $(".zp_nr").css("height",all_h+"px");
+		});
 		
-	
 		$("#ywl").click(function(){
 			$(".zp_nr_left ul li").removeClass("onbt");
 			$(this).addClass("onbt");
@@ -247,13 +249,6 @@
 			 var all_h=$(".zp_nrul").innerHeight();
 		    $(".zp_nr").css("height",all_h+"px");
 		})
-               var yyzy = $(".yyzy");
-		yyzy.click(function() {
-			//			console.log($(this).parent().siblings())
-			$(this).parent().addClass("onzhan").siblings().removeClass("onzhan").removeClass("onzhan1");
-		    var all_h=$(".zp_nr_right").innerHeight()+31;
-		    $(".zhaopin").css("height",all_h+"px");
-		});
-		
+        
 	})
 </script>
