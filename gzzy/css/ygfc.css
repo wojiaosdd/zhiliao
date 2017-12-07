@@ -9,8 +9,9 @@
 	width: 100%;
 	height: auto;
 	font-size: 24px;
-	text-align: left;
-	line-height: 40px;
+	text-align: center;
+	line-height: 60px;
+	font-weight: bold;
 }
 .ygtp_all{
 	width:100%;
