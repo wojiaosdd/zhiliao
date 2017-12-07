@@ -126,22 +126,25 @@ transform: scale(1.1)
 .war{
 	width: 100%;
 	height: auto;
+	padding: 20px 0;
 }
 .war h2{
-	height: 30px;
+	height: 40px;
 	width: 100%;
+	line-height: 40px;
 	text-align: center;
    font-size: 24px;
    color: #f8c700;
+   background:#fff;
 font-family: "微软雅黑";
-	background:#fff;
 }
 .war h3{
-	background:#fff;
-	height: 30px;
+	height:40px;
+	line-height: 40px;
 	width: 100%;
 	text-align: center;
    font-size: 26px;
    color: #f8c700;
+   background:#fff;
 font-family: "微软雅黑";
 }
